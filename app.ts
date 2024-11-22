@@ -1,4 +1,4 @@
-// (() => {
+ (() => {
 
 //     //* Tipos
 //     const batman: string = 'Bruce';
@@ -52,7 +52,7 @@
     
   
   
-//   })()
+
 
 //* Funciones Básicas
 // function sumar( a:number, b:number ): number{
@@ -102,6 +102,9 @@ type Automovil = {
 }
 
 
+
+
+
 // Objetos
 const batimovil:Automovil = {
   carroceria: "Negra",
@@ -141,6 +144,8 @@ const villanos:Villians[] =  [{
   edad: undefined,
   mutante: true
 }];
+console.log(villanos);
+
 
 // Multiples tipos
 // cree dos tipos, uno para charles y otro para apocalipsis
@@ -162,12 +167,12 @@ const apocalipsis:ApocalipsisType = {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
-
+console.log(apocalipsis);
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 
 let mystique: CharlesType | ApocalipsisType;
 
-
-
 mystique = charles;
 mystique = apocalipsis;
+
+  })()

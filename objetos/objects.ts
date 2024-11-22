@@ -12,7 +12,7 @@
         powers: ['Super Veloz']
     } 
 
-  
+    console.log(flash);
     
     
     // flash = {
